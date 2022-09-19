@@ -31,5 +31,28 @@ public class Main{
 		}
 		
 		
+		// 2D arraylists
+		
+		ArrayList<String> name= new ArrayList<String>();
+		
+		name.add("sehan");
+		name.add("umesh");
+		name.add("isuru");
+		
+		ArrayList<String> age = new ArrayList<String>();
+		
+		age.add("twenty-two");
+		age.add("twenty-two");
+		age.add("twenty-four");
+		
+		ArrayList<ArrayList<String>> info = new ArrayList<>();
+		
+		info.add(name);
+		info.add(age);
+		
+		for(int i=0;i<2;i++) {
+			System.out.println(info.get(i));
+		}
+		
 	}
 }
